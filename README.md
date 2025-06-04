@@ -2,7 +2,8 @@
 
 ---
 
-![Main Dashboard](https://your-link.com/dashboard.png)
+![Main Dashboard](https://github.com/user-attachments/assets/cfe9136e-5f9f-47b3-b640-37bc3f57d045)
+
 *Main dashboard where users can explore movies and trigger recommendations*
 
 ---
@@ -15,7 +16,8 @@ Once a user selects a movie from the sidebar, the app finds the most similar mov
 
 ---
 
-![Recommendations View](https://your-link.com/recommendations.png)
+![Recommendations View](https://github.com/user-attachments/assets/b1600584-883f-4f22-ad2c-993f598f0bc8)
+
 *Example of the interface after generating recommendations*
 
 ---
