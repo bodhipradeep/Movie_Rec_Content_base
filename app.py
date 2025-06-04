@@ -28,10 +28,9 @@ def fetch_poster(movie_id):
     if not movie_id or not str(movie_id).isdigit():
         return None
     
-    # Try up to 3 times with delay
     for attempt in range(3):
         try:
-            url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=c7ec19ffdd3279641fb606d19ceb9bb1&language=en-US"
+            url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=tmdb_api_key&language=en-US"
             response = requests.get(url, timeout=5)
             
             if response.status_code == 200:
@@ -51,7 +50,6 @@ def fetch_poster(movie_id):
     
     return None
 
-# Improved TMDB ID extraction
 def extract_tmdb_id(url):
     if pd.isna(url) or not isinstance(url, str):
         return None
