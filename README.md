@@ -1,5 +1,5 @@
-# 🎬 Content-Based Movie Recommendation System with KNN
-
+# 🎬 Similar Movie Recommendation System with KNN
+## *Powered by KNN for Movie Title Recommendations*
 ---
 
 ![Main Dashboard](https://github.com/user-attachments/assets/cfe9136e-5f9f-47b3-b640-37bc3f57d045)
@@ -53,6 +53,34 @@ Once a user selects a movie from the sidebar, the app finds the most similar mov
 ├── tfidf_matrix.pkl                  # Pickled TF-IDF matrix
 ├── movies_processed.csv              # Processed movie metadata (must be present)
 ```
+
+---
+
+## How to Run
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/bodhipradeep/Movie_Rec_Content_base.git
+    cd Movie_Rec_Content_base
+    ```
+
+2. Install dependencies:
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+
+3. Run the Streamlit app:
+    ```bash
+    streamlit run app.py
+    ```
+
+---
+
+## Deployment
+
+The app was successfully hosted on **AWS EC2**, ensuring seamless access and high availability during testing. The EC2 instance has since been terminated to avoid further charges.
+
+You can replicate the setup by following the steps above and launching a new EC2 instance if needed.
 
 ---
 
