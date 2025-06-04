@@ -1,5 +1,5 @@
-# 🎬 Similar Movie Recommendation System with KNN
-## *Powered by KNN for Movie Title Recommendations*
+# 🎬 Movie Recommendation System
+## *Powered by KNN algorithm*
 ---
 
 ![Main Dashboard](https://github.com/user-attachments/assets/cfe9136e-5f9f-47b3-b640-37bc3f57d045)
