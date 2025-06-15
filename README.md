@@ -97,7 +97,7 @@ You can replicate the setup by following the steps above and launching a new EC2
 
 ## 📄 License
 
-This repository is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE).
 
 --- 
 
